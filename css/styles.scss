@@ -1,0 +1,40 @@
+$black-745:rgba(0, 0, 0, 0.745);
+$black:rgb(0, 0, 0);
+$black-71:#00000071;
+
+body {
+    background-color: $black-745;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.navbar {
+    background-color: $black-71;
+    font-size:larger;
+}
+.navbar-nav > li{
+    padding-right: 200px;
+}
+
+.jumbotron {
+    background-color: $black;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.carousel > .carousel-inner > .carousel-item > img{
+    width: 1000px;
+    height: 1000px;
+}
+
+.site-footer {
+    background-color: $black-71;
+    padding:100px; 
+}
