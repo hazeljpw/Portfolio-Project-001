@@ -19,37 +19,35 @@
 
 <body>
 
-    <header>
-        
-        <nav class="navbar navbar-expand-sm navbar-dark static-top">
-            <div class="container-fluid">          
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar navbar-light bg-transparent col">
-                    <a class="navbar-brand" href="#">
-                    <img src="/img/logo.png" height="210" width="230" class="d-inline-block align-top" alt="Logo">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="nucampNavbar">
-                    <ul class="navbar-nav col col-sm-10">
-                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
-                    </ul>
-                    <span class="navbar-text col col-sm-2">
-                        <a role="button" data-toggle="modal" data-target="#loginModal">
-                            <i class="fa fa-sign-in"></i> Login
-                        </a>
-                    </span>
-                </div>
+    <!-- Navbars -->
+    <nav class="navbar navbar-expand-sm navbar-dark static-top">
+        <div class="container-fluid">          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar navbar-light bg-transparent col">
+                <a class="navbar-brand" href="#">
+                <img src="/img/logo.png" height="210" width="230" class="d-inline-block align-top" alt="Logo">
+                </a>
             </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav col col-sm-10">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+                </ul>
+                <span class="navbar-text col col-sm-2">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
 
-    </header>
 >
-
+    <!-- Login Modal -->
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -87,15 +85,15 @@
         </div>
     </div>
 
+    <!-- Intro Carousel -->
     <div class="container">
 
         <div class="row row-content">
-            <div class="col-md-8 mx-auto p-3">
+            <div class="col-sm-9 mx-auto p-3">
                 <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -126,13 +124,14 @@
         </div>
     </div>
 
+    <!-- Products Cards-->
     <div class="text-white text-center">
         <h5>PRODUCTS</h5>
     </div>
 
     <br>
 
-        <div class="card mb-3" style="max-width: 500x;" id="productCard1">
+        <div class="card mb-3" style="max-width: 500x;" id="productCards">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img src="img/crinkles.jpg" class="card-img" alt="Chococolate Crinkle Cookies">
@@ -146,7 +145,7 @@
               </div>
             </div>/  
         </div>
-        <div class="card mb-3" style="max-width: 500x;" id="productCard2">
+        <div class="card mb-3" style="max-width: 500x;" id="productCards">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img src="img/coffee2.jpg" class="card-img" alt="Coffee">
@@ -162,7 +161,15 @@
         </div>
 
       <br>
-     
+    
+    <!-- Allergen Statement -->
+    <div class="card mb-3" style="max-width: 500x;" id="allergenStatement">
+        <div class="col">
+        <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soybeans,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
     <footer class="site-footer">
         <div class="container-fluid">
             <div class="row">
@@ -189,7 +196,7 @@
         </div>
     </footer>
 
-   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

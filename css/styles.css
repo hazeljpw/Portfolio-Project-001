@@ -29,6 +29,11 @@ h1 {
   background-color: #00000071;
   padding: 100px; }
 
-#productCard1, #productCard2 {
+#productCards {
   background-color: #00000071;
   padding: 2%; }
+
+#allergenStatement {
+  background-color: #00000071;
+  border-color: goldenrod;
+  color: white; }
