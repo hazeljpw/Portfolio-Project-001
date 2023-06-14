@@ -37,3 +37,7 @@ h1 {
   background-color: #00000071;
   border-color: goldenrod;
   color: white; }
+
+#headingOne, #headingTwo, #headingThree {
+  background-color: black;
+  color: gold; }
