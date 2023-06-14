@@ -28,3 +28,7 @@ h1 {
 .site-footer {
   background-color: #00000071;
   padding: 100px; }
+
+#productCard1, #productCard2 {
+  background-color: #00000071;
+  padding: 2%; }
