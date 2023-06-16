@@ -2,15 +2,12 @@ body {
   background-color: rgba(0, 0, 0, 0.745); }
 
 h1 {
-  text-align: center;
   padding-top: 1%; }
 
 .navbar {
   background-color: #00000071;
-  font-size: larger; }
-
-.navbar-nav > li {
-  padding-right: 200px; }
+  font-size: larger;
+  color: azure; }
 
 .jumbotron {
   background-color: black; }

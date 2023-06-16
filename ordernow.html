@@ -20,28 +20,26 @@
 <body>
 
     <!-- Navbars -->
-    <nav class="navbar navbar-expand-sm navbar-dark static-top">
-        <div class="container-fluid">          
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar navbar-light bg-transparent col">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/img/logo.png" height="210" width="230" class="d-inline-block align-top" alt="Logo">
+    <div>
+        <div class="text-center mb-3 mt-4">
+            <img src="img/logo2.png" height="300" class="rounded" alt="Logo">
+          </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col col-sm-11">
+                <li class="nav-item ml-5"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item ml-5 active"><a class="nav-link" href="#"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+            </ul>
+            <div class="navbar-text ml-4 col">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
                 </a>
-            </div>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav col col-sm-10">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
-                </ul>
-                <span class="navbar-text col col-sm-2">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
@@ -84,17 +82,14 @@
         </div>
     </div>
 
-    <br>
-
     <!-- Products Card -->
 
-    <div class="text-center">
+    <div class="text-center mb-3 mt-5">
         <img src="img/crinkles.jpg" height="400" alt="...">
     </div>
-    <br>
 
     <!--Choco Crinkles Cards-->
-    <div class="card-group">
+    <div class="card-group mb-3">
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
             <h5 class="card-title">Choco Crinkes (Original)</h5>
@@ -117,71 +112,91 @@
           </div>
         </div>
     </div>
-    <br>
 
     <!--Coffee Cards-->
-    <div class="text-center">
-        <img src="img/coffee2.jpg" height="500" width="350" alt="...">
+    <div class="text-center mb-3" id="coffeeImage">
+        <img src="img/coffee2.jpg" height="500" width="350" alt="Whole Beanss coffee">
     </div>
-    <br>
 
     <div class="card-group">
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Jamaica: Blue Mountain</h4>
+            <h5>(Dark Roast)</h5>
+            <p class="card-text">Aromas and flavors of chocolate with blackberries, and currant with a smooth velvety body, and mild acidity.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beans +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Colombia: El Gato Supremo</h4>
+            <h5>(Medium Roast)</h5>
+            <p class="card-text">Silky, smooth mouth feel, mild acidity, notes of sweet orange, slight nutty almond and sweet vanilla finish.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beans +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Brazil: CHC Reserve Expresso</h4>
+            <h5>(Dark Roast)</h5>
+            <p class="card-text">CHC Espresso is a perfect single shot espresso rich in flavors with a hint of caramelized pecan on the finish.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beans +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
     </div>
-    <br>
 
     <div class="card-group">
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Mexico Organic Mocabe HG</h4>
+            <h5>(Medium Roast)</h5>
+            <p class="card-text">Cups with notes of dark chocolate, a slight citrus sweetness, some nuttiness and a well-rounded body.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beanss +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Costa Rica: La Gladiola</h4>
+            <h5>(Dark Roast)</h5>
+            <p class="card-text">La Gladiola exhibits a wonderful acidity, good body with some citrus cocoa notes.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beanss +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
         <div class="card border-warning" id="productCards">
           <div class="card-body text-white">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-outline-warning">Add to cart</a>
+            <h4 class="card-title">Haiti: Organic Hailtian Blue</h4>
+            <h5>(Dark Roast)</h5>
+            <p class="card-text">Mellow, smooth and creamy body, super nutty, almonds, and as a buttery mouthful. It has a low acidity, medium complexity, and a sweet, smooth finish.</p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-outline-warning">Whole Beanss +</a>
+              <a href="#" class="btn btn-outline-warning">Ground Coffee +</a>
+            </div>
           </div>
         </div>
     </div>
-    <br>
 
     <!-- Allergen Statement -->
-    <div class="card mb-3" style="max-width: 500x;" id="allergenStatement">
+    <div class="card mb-3 mt-5" style="max-width: 500x;" id="allergenStatement">
         <div class="col">
-            <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soybeans,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
+            <h2>ALLERGEN</h2>
+            <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soyBeanss,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
         </div>
     </div>
-    <br>
 
     <!-- Footer -->
     <footer class="site-footer">

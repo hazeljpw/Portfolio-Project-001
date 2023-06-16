@@ -7,16 +7,13 @@ body {
 }
 
 h1 {
-    text-align: center;
     padding-top: 1%;
 }
 
 .navbar {
     background-color: $black-71;
     font-size:larger;
-}
-.navbar-nav > li{
-    padding-right: 200px;
+    color: azure;
 }
 
 .jumbotron {

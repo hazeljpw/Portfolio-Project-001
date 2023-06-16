@@ -20,28 +20,26 @@
 <body>
 
     <!-- Navbars -->
-    <nav class="navbar navbar-expand-sm navbar-dark static-top">
-        <div class="container-fluid">          
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar navbar-light bg-transparent col">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/img/logo.png" height="210" width="230" class="d-inline-block align-top" alt="Logo">
+    <div>
+        <div class="text-center mb-3 mt-4">
+            <img src="img/logo2.png" height="300" class="rounded" alt="Logo">
+          </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col col-sm-11">
+                <li class="nav-item ml-5"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                <li class="nav-item ml-5 active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+            </ul>
+            <div class="navbar-text ml-4 col">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
                 </a>
-            </div>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav col col-sm-10">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
-                </ul>
-                <span class="navbar-text colcol-sm-2">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
@@ -87,9 +85,11 @@
     <!-- Allergen Statement -->
     <div class="card mb-3" style="max-width: 500x;" id="allergenStatement">
         <div class="col">
-        <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soybeans,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
+            <h2>ALLERGEN</h2>
+            <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soybeans,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
         </div>
     </div>
+    <br>
 
     <!-- Footer -->
     <footer class="site-footer">

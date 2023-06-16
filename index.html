@@ -20,33 +20,31 @@
 <body>
 
     <!-- Navbars -->
-    <nav class="navbar navbar-expand-sm navbar-dark static-top">
-        <div class="container-fluid">          
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar navbar-light bg-transparent col">
-                <a class="navbar-brand" href="#">
-                <img src="/img/logo.png" height="210" width="230" class="d-inline-block align-top" alt="Logo">
+    <div>
+        <div class="text-center mb-3 mt-4">
+            <img src="img/logo2.png" height="300" class="rounded" alt="Logo">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col col-sm-11">
+                <li class="nav-item ml-5 active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+            </ul>
+            <div class="navbar-text ml-4 col">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
                 </a>
-            </div>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav col col-sm-10">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
-                </ul>
-                <span class="navbar-text col col-sm-2">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
 
->
     <!-- Login Modal -->
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
@@ -130,37 +128,34 @@
     </div>
 
     <br>
-
-        <div class="card mb-3" style="max-width: 500x;" id="productCards">
+    <div class="row">
+        <div class="card mb-3 col-sm-6" style="max-width: 400x;" id="productCards">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="img/crinkles.jpg" class="card-img" alt="Chococolate Crinkle Cookies">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body text-white">
-                  <h5 class="card-title">Chococolate Crinkle Cookies</h5>
-                  <p class="card-text">Originated in St. Paul, Minnesota. In the Philippines, it gains its popularity in the 80's and has been an all time favorite.</p>
-                  <a href="ordernow.html" class="btn btn-outline-warning">Explore options</a>
+                <div>
+                    <div class="card-body text-white mb-5">
+                      <h5 class="card-title">Chococolate Crinkle Cookies</h5>
+                      <p class="card-text align-bottom">Originated in St. Paul, Minnesota. In the Philippines, it gains its popularity in the 80's and has been an all time favorite.</p>
+                      <a href="ordernow.html" class="btn btn-outline-warning">Explore options</a>
+                    </div>
                 </div>
-              </div>
-            </div>/  
+                <div>
+                    <img src="img/crinkles.jpg" height="400" width="auto" class="card-img" alt="Chococolate Crinkle Cookies">
+                </div>
+            </div>
         </div>
-        <div class="card mb-3" style="max-width: 500x;" id="productCards">
+        <div class="card mb-3 col-sm-6" style="max-width: 400x;" id="productCards">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="img/coffee2.jpg" class="card-img" alt="Coffee">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body text-white">
-                  <h5 class="card-title">Coffee</h5>
-                  <p class="card-text">Whole beans are sourced from different countries and custom roast to produce it's unique flavors.</p>
-                  <a href="ordernow.html" class="btn btn-outline-warning">Explore options</a>
+                <div class="card-body text-white mb-5">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text align-bottom">Whole beans are sourced from different countries and custom roast to produce it's unique flavors.</p>
+                    <a href="ordernow.html#coffeeImage" class="btn btn-outline-warning">Explore options</a>
                 </div>
-              </div>
+                <div>
+                    <img src="img/coffee2.jpg" height="400" width="auto" class="card-img" alt="Coffee">
+                </div>
             </div>  
         </div>
-
-      <br>
+    </div>
     
     <!-- Allergen Statement -->
     <div class="card mb-3" style="max-width: 500x;" id="allergenStatement">
