@@ -19,142 +19,147 @@
 
 <body>
 
-  <!-- Navbars -->
-  <div>
-    <div class="text-center mb-3 mt-4">
-        <img src="img/logo2.png" height="300" class="rounded" alt="Logo">
+    <div>
+      <div class="text-center mb-3 mt-4">
+          <img src="img/logo2.png" height="300" class="rounded" alt="Logo">
+      </div>
     </div>
-  </div>
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav col col-sm-11">
-            <li class="nav-item ml-5"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-            <li class="nav-item ml-5"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
-            <li class="nav-item ml-5 active"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> About Us</a></li>
-            <li class="nav-item ml-5"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
-        </ul>
-        <div class="navbar-text ml-4 col">
-            <a role="button" data-toggle="modal" data-target="#loginModal">
-                <i class="fa fa-sign-in"></i> Login
-            </a>
+
+    <!-- Navbars -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col col-sm-11">
+                <li class="nav-item ml-5"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="ordernow.html"><i class="fa fa-cart-plus fa-lg"></i> Order Now</a></li>
+                <li class="nav-item ml-5 active"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> About Us</a></li>
+                <li class="nav-item ml-5"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+            </ul>
+            <div class="navbar-text ml-4 col">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div classs="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-warning btn-sm ml-1">Sign in</button> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
 
-  <!-- Login Modal -->
-  <div id="loginModal" class="modal fade" role="dialog">
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h3 class="modal-title">Login</h3>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                  <div classs="container-fluid">
-                      <form>
-                          <div class="form-row">
-                              <div class="form-group col-12">
-                                  <label class="sr-only" for="loginEmail">Email address</label>
-                                  <input type="email" class="form-control form control-sm" id="loginEmail" placeholder="Enter email">
-                              </div>
-                              <div class="form-group col-12">
-                                  <label class="sr-only" for="loginPassword">Password</label>
-                                  <input type="password" class="form-control form control-sm" id="loginPassword" placeholder="Password">
-                              </div>
-                              <div class="col">
-                                  <div class="form-check">
-                                      <input class="form-check-input" type="checkbox">
-                                      <label class="form-check-label">Remember me</label> 
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="form-row">
-                              <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                              <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button> 
-                          </div>
-                      </form>
-                  </div>
+    <div class="mb mt-4">
+      <img src="img/logo.png" height="600" class="rounded" alt="Logo">
+    <div>
+
+    <div class="text-white ml-4">
+      <h1>About Us</h1>
+      <p>Sanford Sweet is located in the Sanford, Florida. We are currently delivering all products wth no additional charges in Central Florida locations.</p>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion" id="accordionExample">
+      
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-outline-warning btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Our Goal
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body text-left">
+                    Our main objective is to promote cultural diversity through our delicious baked goods and coffee offerings. We are passionate about showcasing various cultures through the flavors and aromas of our products. To uphold our commitment to quality and sustainability, we give utmost importance to using organic ingredients in our baked goods. This ensures that our treats not only taste great but also align with our values of supporting organic farming practices that are healthier for both people and the environment. In addition, we take pride in partnering with organic and sustainable coffee distributors, who share our vision of responsible sourcing, fair trade, and protecting the planet. By doing so, we strive to create a welcoming space where customers can enjoy the richness of different cultures while knowing that their choices contribute to a more sustainable world.
+                </div>
+            </div>
+      </div>
+      
+      <div class="card">
+          <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-warning btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Current Products
+                  </button>
+              </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body text-left">
+                    Discover the delightful world of our Chocolate Crinkles, available in three delectable options. Indulge in the rich flavors and textures of our traditional, cake-like, or creatively flavored variations. Pair your treat with our exceptional coffee, available as roasted whole beans or convenient ground coffee. With a focus on sustainability, we source organic ingredients and partner with responsible distributors. Experience the fusion of cultures through our baked goods and coffee, knowing that your enjoyment supports a greener and more diverse world.
               </div>
           </div>
       </div>
-  </div>
 
-  <div class="mb-3 mt-4">
-    <img src="img/logo.png" height="600" class="rounded" alt="Logo">
-  <div>
-
-  <div class="text-white ml-4">
-    <h1>About Us</h1>
-    <p>Sanford Sweet is located in the Sanford, Florida. We are currently delivering all products wth no additional charges in Central Florida locations.</p>
-  </div>
-
-  </div>
-  <!-- Accordion -->
-  <div class="accordion mb-5 ml-4" id="accordionExample">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h2 class="mb-0">
-          <button class="btn btn-outline-warning btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Our Goal
-          </button>
-        </h2>
-      </div>
-  
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body text-left">
-          <p>Our main objective is to promote cultural diversity through our delicious baked goods and coffee offerings. We are passionate about showcasing various cultures through the flavors and aromas of our products. To uphold our commitment to quality and sustainability, we give utmost importance to using organic ingredients in our baked goods. This ensures that our treats not only taste great but also align with our values of supporting organic farming practices that are healthier for both people and the environment. In addition, we take pride in partnering with organic and sustainable coffee distributors, who share our vision of responsible sourcing, fair trade, and protecting the planet. By doing so, we strive to create a welcoming space where customers can enjoy the richness of different cultures while knowing that their choices contribute to a more sustainable world.</p>
+      <div class="card">
+          <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-warning btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Future Products
+                  </button>
+              </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body text-left">
+                   We are committed to an ongoing exploration of bake recipes from diverse countries, ensuring a continuous infusion of cultural flavors into our offerings. Our passion for culinary diversity drives us to expand our repertoire of baked goods, constantly seeking new recipes and techniques to delight our customers. Additionally, we are dedicated to broadening our selection of coffees, sourcing beans from various regions and expanding our range of flavors and profiles. By constantly innovating and embracing the rich tapestry of global cuisine, we strive to provide a dynamic and ever-evolving experience that celebrates the diversity of tastes and aromas from around the world.
+              </div>
+          </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h2 class="mb-0">
-          <button class="btn btn-outline-warning btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Current Products
-          </button>
-        </h2>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body text-left">
-          Discover the delightful world of our Chocolate Crinkles, available in three delectable options. Indulge in the rich flavors and textures of our traditional, cake-like, or creatively flavored variations. Pair your treat with our exceptional coffee, available as roasted whole beans or convenient ground coffee. With a focus on sustainability, we source organic ingredients and partner with responsible distributors. Experience the fusion of cultures through our baked goods and coffee, knowing that your enjoyment supports a greener and more diverse world.
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h2 class="mb-0">
-          <button class="btn btn-outline-warning btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Future Products
-          </button>
-        </h2>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body text-left">
-          We are committed to an ongoing exploration of bake recipes from diverse countries, ensuring a continuous infusion of cultural flavors into our offerings. Our passion for culinary diversity drives us to expand our repertoire of baked goods, constantly seeking new recipes and techniques to delight our customers. Additionally, we are dedicated to broadening our selection of coffees, sourcing beans from various regions and expanding our range of flavors and profiles. By constantly innovating and embracing the rich tapestry of global cuisine, we strive to provide a dynamic and ever-evolving experience that celebrates the diversity of tastes and aromas from around the world.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-  <!-- Allergen Statement -->
-  <div class="card mb-3 mt-5" style="max-width: 500x;" id="allergenStatement">
-    <div class="col">
-      <p>All products are produced in a home kitchen not subject to public health inspection that may also process common food allergens. Please be aware that our food may contain or come into contact with common allergens, such as dairy, eggs, wheat, soybeans,tree nuts, peanuts, or wheat. While we take steps to minimize risk and safely handle the foods that contain potential allergens, please be advised that cross contamination may occur, as factors beyond our reasonable control may alter the formulations of the food we serve, or manufacturers may change their formulations without our knowledge.</p>
+    <!-- Allergen Statement -->
+    <div class="card mb-3 mt-5" style="max-width: 500x;" id="allergenStatement">
+      <div class="col">
+          <h2>ALLERGEN</h2>
+          <p>We take pride in crafting all of our products in the cozy confines of a home kitchen. However, it's important to note that our kitchen is not subject to public health inspection. As a result, while we maintain high standards of cleanliness and safety, it's possible that our products may come into contact with common allergens. We want to ensure your well-being, so please be aware that our baked goods and coffees may contain or come into contact with ingredients like dairy, eggs, wheat, soybeans, tree nuts, peanuts, or wheat. Your health matters to us, and we encourage you to reach out if you have any specific dietary concerns or questions.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="site-footer mt-5">
+    <!-- Footer -->
+    <footer class="site-footer">
       <div class="container-fluid">
           <div class="row">
               <div class="col-3 col-sm-2 offset-2 text-white">
                   <h5>Links</h5>
                   <ul class="list-unstyled">
                       <li><a href="index.html" class="text-white">Home</a></li>
-                      <li><a href="ordernow.html" class="text-white">Order Now</a></li>
-                      <li><a href="#" class="text-white">About Us</a></li>
+                      <li><a href="#" class="text-white">Order Now</a></li>
+                      <li><a href="aboutus.html" class="text-white">About Us</a></li>
                       <li><a href="contactus.html" class="text-white">Contact Us</a></li>
                   </ul>
               </div>
@@ -166,16 +171,16 @@
                   <a class="btn btn-social-icon btn-google btn-light" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
               </div>
               <div class="col text-center">
-                  <a role="button" class="btn bg-transparent text-white" href="mailto:campsite@nucamp.co"><i class="fa fa-envelope-o fa-lg"></i> sanfordsweets@outlook.com</a>
+                  <a role="button" class="btn bg-transparent text-white" href="mailto:sanfordsweets@outlook.com"><i class="fa fa-envelope-o fa-lg"></i> sanfordsweets@outlook.com</a>
               </div>
           </div>
       </div>
-  </footer>
+    </footer>
 
-   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
