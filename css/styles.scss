@@ -4,6 +4,7 @@ $black-71:#00000071;
 
 body {
     background-color: $black-745;
+    color: white;
 }
 
 h1 {
@@ -44,7 +45,70 @@ h1 {
     color: white;
 }
 
+#orderNowCart {
+    padding-top: 2%;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top: 2%;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
 #headingOne,#headingTwo,#headingThree{
     background-color: $black;
     color: gold;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    font-size: 1.1em;
 }
