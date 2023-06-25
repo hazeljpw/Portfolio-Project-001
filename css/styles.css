@@ -1,12 +1,12 @@
 body {
-  background-color: rgba(0, 0, 0, 0.745);
+  background-color: black;
   color: white; }
 
 h1 {
   padding-top: 1%; }
 
 .navbar {
-  background-color: #00000071;
+  background-color: rgba(19, 15, 15, 0.797);
   font-size: larger;
   color: azure; }
 
@@ -21,20 +21,17 @@ h1 {
   height: 1000px; }
 
 .site-footer {
-  background-color: #00000071;
+  background-color: rgba(19, 15, 15, 0.797);
   padding: 4%; }
 
 #productCards {
-  background-color: #00000071;
+  background-color: rgba(19, 15, 15, 0.797);
   padding: 2%; }
 
 #allergenStatement {
-  background-color: #00000071;
+  background-color: rgba(19, 15, 15, 0.797);
   border-color: goldenrod;
   color: white; }
-
-#orderNowCart {
-  padding-top: 2%; }
 
 .cart-header {
   font-weight: bold;
@@ -87,3 +84,15 @@ h1 {
 
 .cart-total-price {
   font-size: 1.1em; }
+
+.modal-content {
+  background-color: rgba(19, 15, 15, 0.797); }
+
+#accordionExample {
+  color: black; }
+
+#orderNowCart {
+  margin-top: 3%;
+  border-style: solid;
+  border-color: goldenrod;
+  background-color: rgba(19, 15, 15, 0.797); }
